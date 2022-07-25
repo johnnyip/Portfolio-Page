@@ -1,4 +1,4 @@
-import { Group, Button, Table } from '@mantine/core';
+import { Group, Button } from '@mantine/core';
 import parse from 'html-react-parser'
 
 export default function TableDetail(props) {
@@ -17,8 +17,6 @@ export default function TableDetail(props) {
                             console.log(item)
                             return (
                                 <Button
-                                    // variant="outline"
-                                    // style={{ backgroundColor: data.themeColor, color: "#000000" }}
                                     onClick={() => { window.open(item[1]) }}
                                     size="lg">
                                     {(item[0])}
@@ -30,6 +28,7 @@ export default function TableDetail(props) {
 
                 {(data.image !== "") ?
                     <img src={data.image}
+                    alt=""
                         width="100%"
                         style={{}} />
                     : ""}

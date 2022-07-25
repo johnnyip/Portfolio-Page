@@ -3,18 +3,24 @@ import parse from 'html-react-parser'
 
 export default function TableItem(props) {
     let data = props.data
-    let i = props.index
     let setShowDetail = props.setShowDetail
     let setDetailItem = props.setDetailItem
 
     let color = {
         "React.js": ["#008DE2", "#E5F5FD"],
-        "Java": ["#008DE2", "#E5F5FD"],
-        "Hyperledger Fabric": ["#008DE2", "#E5F5FD"],
-        "Spring Boot": ["#008DE2", "#E5F5FD"],
-        "JWT": ["#008DE2", "#E5F5FD"],
-        "Jenkins": ["#008DE2", "#E5F5FD"],
-        "MySQL": ["#008DE2", "#E5F5FD"],
+
+        "Java": ["#ED6D1F", "#E5F5FD"],
+        "Spring Security": ["#ED6D1F", "#E5F5FD"],
+        "Spring Boot": ["#ED6D1F", "#E5F5FD"],
+        "JWT": ["#ED6D1F", "#E5F5FD"],
+        "Hibernate": ["#ED6D1F", "#E5F5FD"],
+        
+        "Jenkins": ["#000000", "#E5F5FD"],
+        "Hyperledger Fabric": ["#8BDEDB", "#742124"],
+        "Docker": ["#0098E8", "#FFFFFF"],
+
+        "Swift": ["#F77C47", "#FFFFFF"],
+        "iOS": ["#F77C47", "#FFFFFF"],
     }
 
 
@@ -27,8 +33,8 @@ export default function TableItem(props) {
             <tr style={{ backgroundColor: data.themeColor }}>
                 <td>
                     {data.name}<br />
-                    {(data.thumbnail != undefined) ?
-                        <img src={data.thumbnail} width={150} />
+                    {(data.thumbnail !== undefined) ?
+                        <img src={data.thumbnail} alt="" width={150} />
                         : <></>
                     }
                 </td>
@@ -37,9 +43,10 @@ export default function TableItem(props) {
                     <Group spacing="xs" >
                         {[...data.keywords].map((item, i) => {
                             return <Badge
+                                color="gray"
                                 style={{
-                                    color: (color[item] !== undefined) ? color[item][0] : "#008DE2",
-                                    backgroundColor: (color[item] !== undefined) ? color[item][1] : "#E5F5FD",
+                                    color: (color[item] !== undefined) ? color[item][0] : "",
+                                    backgroundColor: (color[item] !== undefined) ? color[item][1] : "",
                                 }}
                                 size="lg">{item}</Badge>
                         })}

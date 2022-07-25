@@ -2,7 +2,7 @@
   {
     "name": "Supply Chain Finance Operation Platform",
     "image": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
-    "shortDescription": "[FYP] A system for stakeholders in supplychain finance",
+    "shortDescription": "[FYP] A system for stakeholders in supplychain finance<br/><ul><li>Delivery Order Management</li><li>Delivery checkpoints - Map View</li><li>Documents Storage</li><li>Synchronize Data To Private Blockchain</li></ul>",
     "longDescription": "[FYP]<br>A system for stakeholders involved in the Supply Chain Finance (Supplier, distributor, driver)<br>They can manage and closely monitor the delivery status, and synchronize all the data to a privateblockchain network.<br/><br/> <table width='100%' border='1' class='tech-stack-table'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th width='40%' valign='top'>Frontend</th><td width='60%'>React.js<br />Hosted using <b>Docker</b><br /><br />Libraries used:<ul><li>Redux-toolkit (State Container)</li><li>Mantine (UI Components)</li><li>Next.js (Server-side Rendering)</li><li>Tabler (Icons)</li><li>Axios (HTTP requests)</li></ul></td></tr><tr><th class='tech-stack-table-th valign='top'>Backend (Operation Centre)</th><td>Spring Boot<br />Connected to MySQL<br />Hosted using <b>Tomcat</b><br /><br /><ul><li>Spring Security (JWT)</li><li>Spring Data JPA</li><li>Hosted with Tomcat</li></ul></td></tr><tr><th class='tech-stack-table-th' valign='top'>Backend (Blockchain Centre)</th><td>Hyperledger Fabric<br /><ul><li>A Single-node Linux</li><li>Running Docker Containers</li></ul><br />Perform <b>Read</b> and <b>Insert</b> operations with an API endpoint<br /><ul><li>Hyperledger Fabric Gateway SDK</li><li>Spring Boot Application</li><li>Hosted with Tomcat</li></ul><br /></td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
     "keywords": [
       "React.js",
@@ -22,12 +22,12 @@
       ["System Website", "https://fyp-front.johnnyip.com"],
       ["Source Code", "https://github.com/uowchk-group2"]
     ],
-    "themeColor":"#F5ECDE"
+    "themeColor": "#F5ECDE"
   },
   {
     "name": "Tour Booking System",
     "image": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
-    "shortDescription": "[School Project] A system for people to apply and become a local tour host",
+    "shortDescription": "[School Project]<br/><ul><li>Host Create Tours</li><li>Tours Join Tours</li><li>Admin Approve Host User Application</li><li>Handle Complaints and Chat Between Users</li></ul>",
     "longDescription": "[School Project]<br>A system for people to apply and become a local tour <b>host</b> and host tours.<br>Also allow foreign tourists join those tours.<br><br><br><table border='1' class='tech-stack-table' width='100%'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th' width='40%' valign='top'>Frontend + Backend</th><td width='60%'><ul><li>Spring Boot</li><li>Spring Security</li><li>Thymeleaf (HTML+js)</li><li>Spring Data JPA</li></ul></td></tr><tr><th class='tech-stack-table-th'>Web Server</th><td>Tomcat</td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
     "keywords": [
       "Java",
@@ -48,7 +48,7 @@
         "https://docs.google.com/document/d/1UKhRUsIBDPBGwG6qdDa4YjqWm477URc3c9lg_YsEcwM/"
       ]
     ],
-    "themeColor":"#EDF9ED"
+    "themeColor": "#EDF9ED"
   },
   {
     "name": "JetBrains Academy projects",
@@ -63,7 +63,7 @@
         "https://github.com/johnnyip/JetBrains-Academy-projects"
       ]
     ],
-    "themeColor":"#A6E2F8"
+    "themeColor": "#A6E2F8"
   },
   {
     "name": "DateGrasp",
@@ -80,7 +80,7 @@
       ["Privacy Policy", "https://johnnyip.com/privacy-policy-dategrasp/"],
       ["Beta Testing (iOS)", "https://johnnyip.com/beta/"]
     ],
-    "themeColor":"#FDE4CF"
+    "themeColor": "#FDE4CF"
   },
   {
     "name": "TransportGrasp",
@@ -94,7 +94,7 @@
       ["Beta Testing (iOS)", "https://johnnyip.com/beta/"],
       ["Source Code", "https://github.com/johnnyip/TransportGrasp"]
     ],
-    "themeColor":"#9DD8D2"
+    "themeColor": "#9DD8D2"
   },
   {
     "name": "MuseumPlus",
@@ -111,6 +111,6 @@
       ],
       ["Source Code", "https://github.com/johnnyip/HCI-Prototype_Museum-"]
     ],
-    "themeColor":"#FDE5D0"
+    "themeColor": "#FDE5D0"
   }
 ]
