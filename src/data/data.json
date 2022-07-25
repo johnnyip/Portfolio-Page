@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Supply Chain Finance Operation Platform",
+    "image": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
+    "shortDescription": "[FYP] A system for stakeholders in supplychain finance",
+    "longDescription": "[FYP]<br>A system for stakeholders involved in the Supply Chain Finance (Supplier, distributor, driver)<br>They can manage and closely monitor the delivery status, and synchronize all the data to a privateblockchain network.<br/><br/> <table width='100%' border='1' class='tech-stack-table'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th width='40%' valign='top'>Frontend</th><td width='60%'>React.js<br />Hosted using <b>Docker</b><br /><br />Libraries used:<ul><li>Redux-toolkit (State Container)</li><li>Mantine (UI Components)</li><li>Next.js (Server-side Rendering)</li><li>Tabler (Icons)</li><li>Axios (HTTP requests)</li></ul></td></tr><tr><th class='tech-stack-table-th valign='top'>Backend (Operation Centre)</th><td>Spring Boot<br />Connected to MySQL<br />Hosted using <b>Tomcat</b><br /><br /><ul><li>Spring Security (JWT)</li><li>Spring Data JPA</li><li>Hosted with Tomcat</li></ul></td></tr><tr><th class='tech-stack-table-th' valign='top'>Backend (Blockchain Centre)</th><td>Hyperledger Fabric<br /><ul><li>A Single-node Linux</li><li>Running Docker Containers</li></ul><br />Perform <b>Read</b> and <b>Insert</b> operations with an API endpoint<br /><ul><li>Hyperledger Fabric Gateway SDK</li><li>Spring Boot Application</li><li>Hosted with Tomcat</li></ul><br /></td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
+    "keywords": [
+      "React.js",
+      "Java",
+      "Hyperledger Fabric",
+      "Spring Boot",
+      "Spring Security",
+      "Hibernate",
+      "JWT",
+      "Jenkins",
+      "MySQL",
+      "AWS S3",
+      "Docker"
+    ],
+    "links": [
+      ["Project Introduction", "https://fyp.johnnyip.com"],
+      ["System Website", "https://fyp-front.johnnyip.com"],
+      ["Source Code", "https://github.com/uowchk-group2"]
+    ],
+    "themeColor":"#F5ECDE"
+  },
+  {
+    "name": "Tour Booking System",
+    "image": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
+    "shortDescription": "[School Project] A system for people to apply and become a local tour host",
+    "longDescription": "[School Project]<br>A system for people to apply and become a local tour <b>host</b> and host tours.<br>Also allow foreign tourists join those tours.<br><br><br><table border='1' class='tech-stack-table' width='100%'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th' width='40%' valign='top'>Frontend + Backend</th><td width='60%'><ul><li>Spring Boot</li><li>Spring Security</li><li>Thymeleaf (HTML+js)</li><li>Spring Data JPA</li></ul></td></tr><tr><th class='tech-stack-table-th'>Web Server</th><td>Tomcat</td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
+    "keywords": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Thymeleaf (HTML+js)",
+      "Hibernate",
+      "Jenkins",
+      "MySQL",
+      "AWS S3",
+      "Docker"
+    ],
+    "links": [
+      ["Website", "https://tomcat.johnnyip.com/tour-system/"],
+      ["Source Code", "https://github.com/uowchk-group2/tour-system"],
+      [
+        "Reports",
+        "https://docs.google.com/document/d/1UKhRUsIBDPBGwG6qdDa4YjqWm477URc3c9lg_YsEcwM/"
+      ]
+    ],
+    "themeColor":"#EDF9ED"
+  },
+  {
+    "name": "JetBrains Academy projects",
+    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/07/Screenshot-2022-07-26-at-12.55.55-AM.png",
+    "image": "",
+    "shortDescription": "Projects from <b>JetBrains Academy</b> - Java Developer Track",
+    "longDescription": "Projects from <b>JetBrains Academy</b> - Java Developer Track<br>In each project file, there is a link to a online compiler for real-time demonstration.",
+    "keywords": ["Java"],
+    "links": [
+      [
+        "Source Code and Demonstration",
+        "https://github.com/johnnyip/JetBrains-Academy-projects"
+      ]
+    ],
+    "themeColor":"#A6E2F8"
+  },
+  {
+    "name": "DateGrasp",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/07/Untitled-design-2.png",
+    "image": "",
+    "shortDescription": "[iOS App] Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
+    "longDescription": "[iOS App] Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
+    "keywords": ["Swift", "iOS", "Firebase"],
+    "links": [
+      [
+        "Download At AppStore",
+        "https://apps.apple.com/us/app/dategrasp/id1577501913"
+      ],
+      ["Privacy Policy", "https://johnnyip.com/privacy-policy-dategrasp/"],
+      ["Beta Testing (iOS)", "https://johnnyip.com/beta/"]
+    ],
+    "themeColor":"#FDE4CF"
+  },
+  {
+    "name": "TransportGrasp",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/08/Untitled-design-2.png",
+    "image": "",
+    "shortDescription": "[Discontinued]HK public transport ETA. Can be used with iOS Shortcut app<br>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
+    "longDescription": "[Discontinued]HK public transport ETA. Can be used with iOS Shortcut app<br>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
+    "keywords": ["Swift", "iOS", "Open api"],
+    "links": [
+      ["Features", "https://johnnyip.com/transportgrasp/"],
+      ["Beta Testing (iOS)", "https://johnnyip.com/beta/"],
+      ["Source Code", "https://github.com/johnnyip/TransportGrasp"]
+    ],
+    "themeColor":"#9DD8D2"
+  },
+  {
+    "name": "MuseumPlus",
+    "thumbnail": "http://johnnyip.com/wp-content/uploads/2021/11/Museum.png",
+    "image": "",
+    "shortDescription": "Human Computer Interaction - Group Project Prototype",
+    "longDescription": "Human Computer Interaction - Group Project Prototype",
+    "keywords": ["Swift", "iOS"],
+    "links": [
+      ["Prototype(iOS)", "https://johnnyip.com/beta/"],
+      [
+        "Project Report",
+        "https://drive.google.com/drive/folders/1JW-1SnFbfBglchkLHghffKdjbc8YKdSc?usp=sharing"
+      ],
+      ["Source Code", "https://github.com/johnnyip/HCI-Prototype_Museum-"]
+    ],
+    "themeColor":"#FDE5D0"
+  }
+]
