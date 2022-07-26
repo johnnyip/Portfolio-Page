@@ -14,7 +14,8 @@ export default function TableItem(props) {
         "Spring Boot": ["#ED6D1F", "#E5F5FD"],
         "JWT": ["#ED6D1F", "#E5F5FD"],
         "Hibernate": ["#ED6D1F", "#E5F5FD"],
-        
+        "Thymeleaf (HTML+js)": ["#ED6D1F", "#E5F5FD"],
+
         "Jenkins": ["#000000", "#E5F5FD"],
         "Hyperledger Fabric": ["#8BDEDB", "#742124"],
         "Docker": ["#0098E8", "#FFFFFF"],
@@ -32,14 +33,14 @@ export default function TableItem(props) {
         return (
             <tr style={{ backgroundColor: data.themeColor }}>
                 <td>
-                    {data.name}<br />
+                    <b>{data.name}</b><br /><br />
                     {(data.thumbnail !== undefined) ?
                         <img src={data.thumbnail} alt="" width={150} />
                         : <></>
                     }
-                </td>
-                <td>{parse(data.shortDescription)}</td>
-                <td>
+                    <br />
+                    {parse(data.shortDescription)}
+                    <br />
                     <Group spacing="xs" >
                         {[...data.keywords].map((item, i) => {
                             return <Badge
@@ -51,16 +52,17 @@ export default function TableItem(props) {
                                 size="lg">{item}</Badge>
                         })}
                     </Group>
-                </td>
-                <td>
-                    <Button
-                        onClick={() => {
-                            setShowDetail(true);
-                            setDetailItem(data)
-                        }}
-                    >
-                        Detail
-                    </Button>
+                    <br/>
+                    <Group grow>
+                        <Button
+                            onClick={() => {
+                                setShowDetail(true);
+                                setDetailItem(data)
+                            }}
+                        >
+                            Detail
+                        </Button>
+                    </Group>
                 </td>
             </tr>
         );

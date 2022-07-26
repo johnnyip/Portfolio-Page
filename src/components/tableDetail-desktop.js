@@ -7,7 +7,7 @@ export default function TableDetail(props) {
     if (data.name !== undefined && data.links.length > 0) {
 
         return (
-            <div >
+            <div className="table-desktop">
                 <Group
                     style={{ paddingLeft: 30, paddingRight: 30 }}
                     grow>
@@ -28,7 +28,7 @@ export default function TableDetail(props) {
 
                 {(data.image !== "") ?
                     <img src={data.image}
-                    alt=""
+                        alt=""
                         width="100%"
                         style={{}} />
                     : ""}
