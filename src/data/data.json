@@ -1,9 +1,55 @@
 [
   {
+    "name": "AR System ",
+    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
+    "image": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
+    "shortDescription": "[In Progress]<br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
+    "longDescription": "[In Progress]<br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
+    "keywords": [
+      "React.js",
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Hibernate",
+      "JWT",
+      "Jenkins",
+      "MySQL",
+      "Docker"
+    ],
+    "links": [
+      ["System Website (with dummy data)", "https://ar.johnnyip.com"],
+      ["Source Code", "https://github.com/uowchk-internship/AR-System"]
+    ],
+    "themeColor": "#EEEEEE"
+  },
+  {
+    "name": "ORCAS Platform ",
+    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
+    "image": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
+    "shortDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/><br/><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
+    "longDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/><br/>The <b>design</b> and <b>frontend (HTML, CSS)</b>: Done by summer interns (I am the instructor)<br/><br/>Other parts include <b>frontend Js (React.js), backend Spring Boot (Hibernate, Spring Security, JWT)</b> are done by me.<h2>Main functionality</h2><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
+    "keywords": [
+      "React.js",
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Hibernate",
+      "JWT",
+      "Jenkins",
+      "MySQL",
+      "Docker"
+    ],
+    "links": [
+      ["System Website", "https://orcas.uowchk.edu.hk"],
+      ["Source Code", "https://github.com/uowchk-internship/ORCAS"]
+    ],
+    "themeColor": "#BAC6FF"
+  },
+  {
     "name": "Supply Chain Finance Operation Platform",
-    "thumbnail":"http://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
+    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
     "image": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
-    "shortDescription": "[FYP] A system for stakeholders in supplychain finance<br/><ul><li>Delivery Order Management</li><li>Delivery checkpoints - Map View</li><li>Documents Storage</li><li>Synchronize Data To Private Blockchain</li></ul>",
+    "shortDescription": "[FYP] A system for stakeholders in supplychain finance<br/><br/><ul><li>Delivery Order Management</li><li>Delivery checkpoints - Map View</li><li>Documents Storage</li><li>Synchronize Data To Private Blockchain</li></ul>",
     "longDescription": "[FYP]<br>A system for stakeholders involved in the Supply Chain Finance (Supplier, distributor, driver)<br>They can manage and closely monitor the delivery status, and synchronize all the data to a private blockchain network.<br/><br/> <table width='100%' border='1' class='tech-stack-table'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th width='40%' valign='top'>Frontend</th><td width='60%'>React.js<br />Hosted using <b>Docker</b><br /><br />Libraries used:<ul><li>Redux-toolkit (State Container)</li><li>Mantine (UI Components)</li><li>Next.js (Server-side Rendering)</li><li>Tabler (Icons)</li><li>Axios (HTTP requests)</li></ul></td></tr><tr><th class='tech-stack-table-th valign='top'>Backend (Operation Centre)</th><td>Spring Boot<br />Connected to MySQL<br />Hosted using <b>Tomcat</b><br /><br /><ul><li>Spring Security (JWT)</li><li>Spring Data JPA</li><li>Hosted with Tomcat</li></ul></td></tr><tr><th class='tech-stack-table-th' valign='top'>Backend (Blockchain Centre)</th><td>Hyperledger Fabric<br /><ul><li>A Single-node Linux</li><li>Running Docker Containers</li></ul><br />Perform <b>Read</b> and <b>Insert</b> operations with an API endpoint<br /><ul><li>Hyperledger Fabric Gateway SDK</li><li>Spring Boot Application</li><li>Hosted with Tomcat</li></ul><br /></td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
     "keywords": [
       "React.js",
@@ -27,9 +73,9 @@
   },
   {
     "name": "Tour Booking System",
-    "thumbnail":"http://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
+    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
     "image": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
-    "shortDescription": "[School Project]<br/><ul><li>Host Create Tours</li><li>Tours Join Tours</li><li>Admin Approve Host User Application</li><li>Handle Complaints and Chat Between Users</li></ul>",
+    "shortDescription": "[School Project]<br/><br/><ul><li>Host Create Tours</li><li>Tourists Join Tours</li><li>Admin Approve the Application of Host Users</li><li>Handle Complaints and Chat Between Users</li></ul>",
     "longDescription": "[School Project]<br>A system for people to apply and become a local tour <b>host</b> and host tours.<br>Also allow foreign tourists join those tours.<br><br><br><table border='1' class='tech-stack-table' width='100%'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th' width='40%' valign='top'>Frontend + Backend</th><td width='60%'><ul><li>Spring Boot</li><li>Spring Security</li><li>Thymeleaf (HTML+js)</li><li>Spring Data JPA</li></ul></td></tr><tr><th class='tech-stack-table-th'>Web Server</th><td>Tomcat</td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
     "keywords": [
       "Java",
@@ -57,7 +103,7 @@
     "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/07/Screenshot-2022-07-26-at-12.55.55-AM.png",
     "image": "",
     "shortDescription": "Projects from <b>JetBrains Academy</b> - Java Developer Track",
-    "longDescription": "Projects from <b>JetBrains Academy</b> - Java Developer Track<br>In each project file, there is a link to a online compiler for real-time demonstration.",
+    "longDescription": "Projects from <b>JetBrains Academy</b> - Java Developer Track<br><br/>In each project file, there is a link to a online compiler for real-time demonstration.",
     "keywords": ["Java"],
     "links": [
       [
@@ -71,8 +117,8 @@
     "name": "DateGrasp",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/07/Untitled-design-2.png",
     "image": "",
-    "shortDescription": "[iOS App] Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
-    "longDescription": "[iOS App] Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
+    "shortDescription": "[iOS App]<br/>Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
+    "longDescription": "[iOS App]<br/>Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
     "keywords": ["Swift", "iOS", "Firebase"],
     "links": [
       [
@@ -88,8 +134,8 @@
     "name": "TransportGrasp",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/08/Untitled-design-2.png",
     "image": "",
-    "shortDescription": "[Discontinued]HK public transport ETA. Can be used with iOS Shortcut app<br>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
-    "longDescription": "[Discontinued]HK public transport ETA. Can be used with iOS Shortcut app<br>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
+    "shortDescription": "[Discontinued]<br/>HK public transport ETA. Can be used with iOS Shortcut app<br/>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
+    "longDescription": "[Discontinued]<br/>HK public transport ETA. Can be used with iOS Shortcut app<br/>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
     "keywords": ["Swift", "iOS", "Open api"],
     "links": [
       ["Features", "https://johnnyip.com/transportgrasp/"],
