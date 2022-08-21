@@ -31,7 +31,7 @@ export default function TableItem(props) {
     if (data !== undefined) {
 
         return (
-            <tr style={{ backgroundColor: data.themeColor }}>
+            <tr style={{ backgroundColor: data.themeColor }} id={data.name.split(' ')[0]}>
                 <td>
                     <b>{data.name}</b><br /><br />
                     {(data.thumbnail !== undefined) ?

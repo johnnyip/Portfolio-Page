@@ -1,6 +1,6 @@
 [
   {
-    "name": "AR System ",
+    "name": "AR System",
     "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
     "image": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
     "shortDescription": "[In Progress]<br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
@@ -23,7 +23,7 @@
     "themeColor": "#EEEEEE"
   },
   {
-    "name": "ORCAS Platform ",
+    "name": "ORCAS Platform",
     "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
     "image": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
     "shortDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/><br/><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
