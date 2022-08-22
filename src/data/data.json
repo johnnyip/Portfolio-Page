@@ -26,8 +26,8 @@
     "name": "ORCAS Platform",
     "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
     "image": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
-    "shortDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/><br/><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
-    "longDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/><br/>The <b>design</b> and <b>frontend (HTML, CSS)</b>: Done by summer interns (I am the instructor)<br/><br/>Other parts include <b>frontend Js (React.js), backend Spring Boot (Hibernate, Spring Security, JWT)</b> are done by me.<h2>Main functionality</h2><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
+    "shortDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/>Alternative URL <a href='https://orcas.johnnyip.com' target='_blank'>https://orcas.johnnyip.com</a><br/><br/><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
+    "longDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/>Alternative URL <a href='https://orcas.johnnyip.com' target='_blank'>https://orcas.johnnyip.com</a><br/><br/>The <b>design</b> and <b>frontend (HTML, CSS)</b>: Done by summer interns (I am the instructor)<br/><br/>Other parts include <b>frontend Js (React.js), backend Spring Boot (Hibernate, Spring Security, JWT)</b> are done by me.<h2>Main functionality</h2><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
     "keywords": [
       "React.js",
       "Java",
@@ -41,6 +41,7 @@
     ],
     "links": [
       ["System Website", "https://orcas.uowchk.edu.hk"],
+      ["Alternative Website", "https://orcas.johnnyip.com"],
       ["Source Code", "https://github.com/uowchk-internship/ORCAS"]
     ],
     "themeColor": "#BAC6FF"
