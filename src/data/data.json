@@ -17,7 +17,8 @@
       "Docker"
     ],
     "links": [
-      ["System Website (with dummy data)", "https://ar.johnnyip.com"],
+      ["System Website", "https://ar.johnnyip.com"],
+      ["User Guide", "https://johnnyip.com/ar"],
       ["Source Code", "https://github.com/uowchk-internship/AR-System"]
     ],
     "themeColor": "#EEEEEE"
@@ -45,6 +46,21 @@
       ["Source Code", "https://github.com/uowchk-internship/ORCAS"]
     ],
     "themeColor": "#BAC6FF"
+  },
+  {
+    "name": "Introduction to Cryptocurrency (5:04)",
+    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-10-at-3.15.31-AM.png",
+    "image": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-10-at-3.15.31-AM.png",
+    "shortDescription": "Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
+    "longDescription": "Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
+    "keywords": [
+      "blockchain",
+      "cryptocurreny"
+    ],
+    "links": [
+      ["Video URL", "https://youtu.be/ZU7DzynwOII"]
+    ],
+    "themeColor": "#FFFFFF"
   },
   {
     "name": "Supply Chain Finance Operation Platform",
