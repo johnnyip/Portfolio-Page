@@ -1,8 +1,8 @@
 [
   {
     "name": "AR System",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
     "shortDescription": "[In Progress]<br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
     "longDescription": "[In Progress]<br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
     "keywords": [
@@ -25,8 +25,8 @@
   },
   {
     "name": "ORCAS Platform",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
     "shortDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/>Alternative URL <a href='https://orcas.johnnyip.com' target='_blank'>https://orcas.johnnyip.com</a><br/><br/><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
     "longDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/>Alternative URL <a href='https://orcas.johnnyip.com' target='_blank'>https://orcas.johnnyip.com</a><br/><br/>The <b>design</b> and <b>frontend (HTML, CSS)</b>: Done by summer interns (I am the instructor)<br/><br/>Other parts include <b>frontend Js (React.js), backend Spring Boot (Hibernate, Spring Security, JWT)</b> are done by me.<h2>Main functionality</h2><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
     "keywords": [
@@ -49,8 +49,8 @@
   },
   {
     "name": "Introduction to Cryptocurrency (5:04)",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-10-at-3.15.31-AM.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-10-at-3.15.31-AM.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-10-at-3.15.31-AM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-10-at-3.15.31-AM.png",
     "shortDescription": "Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
     "longDescription": "Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
     "keywords": [
@@ -64,8 +64,8 @@
   },
   {
     "name": "Supply Chain Finance Operation Platform",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
     "shortDescription": "[FYP] A system for stakeholders in supplychain finance<br/><br/><ul><li>Delivery Order Management</li><li>Delivery checkpoints - Map View</li><li>Documents Storage</li><li>Synchronize Data To Private Blockchain</li></ul>",
     "longDescription": "[FYP]<br>A system for stakeholders involved in the Supply Chain Finance (Supplier, distributor, driver)<br>They can manage and closely monitor the delivery status, and synchronize all the data to a private blockchain network.<br/><br/> <table width='100%' border='1' class='tech-stack-table'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th width='40%' valign='top'>Frontend</th><td width='60%'>React.js<br />Hosted using <b>Docker</b><br /><br />Libraries used:<ul><li>Redux-toolkit (State Container)</li><li>Mantine (UI Components)</li><li>Next.js (Server-side Rendering)</li><li>Tabler (Icons)</li><li>Axios (HTTP requests)</li></ul></td></tr><tr><th class='tech-stack-table-th valign='top'>Backend (Operation Centre)</th><td>Spring Boot<br />Connected to MySQL<br />Hosted using <b>Tomcat</b><br /><br /><ul><li>Spring Security (JWT)</li><li>Spring Data JPA</li><li>Hosted with Tomcat</li></ul></td></tr><tr><th class='tech-stack-table-th' valign='top'>Backend (Blockchain Centre)</th><td>Hyperledger Fabric<br /><ul><li>A Single-node Linux</li><li>Running Docker Containers</li></ul><br />Perform <b>Read</b> and <b>Insert</b> operations with an API endpoint<br /><ul><li>Hyperledger Fabric Gateway SDK</li><li>Spring Boot Application</li><li>Hosted with Tomcat</li></ul><br /></td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
     "keywords": [
@@ -90,8 +90,8 @@
   },
   {
     "name": "Tour Booking System",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
     "shortDescription": "[School Project]<br/><br/><ul><li>Host Create Tours</li><li>Tourists Join Tours</li><li>Admin Approve the Application of Host Users</li><li>Handle Complaints and Chat Between Users</li></ul>",
     "longDescription": "[School Project]<br>A system for people to apply and become a local tour <b>host</b> and host tours.<br>Also allow foreign tourists join those tours.<br><br><br><table border='1' class='tech-stack-table' width='100%'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th' width='40%' valign='top'>Frontend + Backend</th><td width='60%'><ul><li>Spring Boot</li><li>Spring Security</li><li>Thymeleaf (HTML+js)</li><li>Spring Data JPA</li></ul></td></tr><tr><th class='tech-stack-table-th'>Web Server</th><td>Tomcat</td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
     "keywords": [
@@ -116,9 +116,23 @@
     "themeColor": "#EDF9ED"
   },
   {
+    "name": "HKJC Health Declaration Form Generator",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/12/Screenshot-2022-12-16-at-1.10.38-PM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/12/Screenshot-2022-12-16-at-1.10.38-PM.png",
+    "shortDescription": "Help my colleagues to reduce the time spent everyday on filling the google form, by automating the process of google form-filling.<br/>Positive feedback from colleagues after they used this tool.",
+    "longDescription": "As all the employees of HKJC are required to fill a Google form everyday for health declarations, it is quite annoying and time consuming to do this repeatedly everyday.<br/>After using this generator, they have positive feedback on the usefulness of this tool.",
+    "keywords": [
+      "JavaScript"
+    ],
+    "links": [
+      ["Website", "https://johnnyip.com/generator/"]
+    ],
+    "themeColor": "#EEEEEE"
+  },
+  {
     "name": "JetBrains Academy projects",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/07/Screenshot-2022-07-26-at-12.55.55-AM.png",
-    "image": "",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/07/Screenshot-2022-07-26-at-12.55.55-AM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/12/Screenshot-2022-12-16-at-1.10.38-PM.png",
     "shortDescription": "Projects from <b>JetBrains Academy</b> - Java Developer Track",
     "longDescription": "Projects from <b>JetBrains Academy</b> - Java Developer Track<br><br/>In each project file, there is a link to a online compiler for real-time demonstration.",
     "keywords": ["Java"],
@@ -163,7 +177,7 @@
   },
   {
     "name": "MuseumPlus",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2021/11/Museum.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/11/Museum.png",
     "image": "",
     "shortDescription": "Human Computer Interaction - Group Project Prototype",
     "longDescription": "Human Computer Interaction - Group Project Prototype",
@@ -180,8 +194,8 @@
   },
   {
     "name": "Case Study - Porsche",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-2.39.58-AM.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-2.39.58-AM.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-2.39.58-AM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-2.39.58-AM.png",
     "shortDescription": "Subject: Quality Management<br/>Final grade of subject: A+<br/><br/>Analyse how Porsche maintain their good quality and high volume of production at the same time.",
     "longDescription": "Subject: Quality Management<br/>Final grade of subject: A+<br/><br/>Analyse how Porsche maintain their good quality and high volume of production at the same time.",
     "keywords": ["Academic"],
@@ -195,8 +209,8 @@
   },
   {
     "name": "介紹香港法定古蹟－中環和平紀念碑",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-3.01.31-AM.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-3.01.31-AM.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-3.01.31-AM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-3.01.31-AM.png",
     "shortDescription": "科目：認識當今香港的文化和承傳<br/>科目總分：A<br/><br/>介紹中環和平紀念碑歷史背景，對比回歸前後政府對於此地標的態度，包括：紀念日期、悼念地點、悼念儀式，以及教育差異。",
     "longDescription": "科目：認識當今香港的文化和承傳<br/>科目總分：A<br/><br/>介紹中環和平紀念碑歷史背景，對比回歸前後政府對於此地標的態度，包括：紀念日期、悼念地點、悼念儀式，以及教育差異。",
     "keywords": ["Academic"],
@@ -210,8 +224,8 @@
   },
   {
     "name": "個人論文－從「六七暴動」及「反送中」運動當中，對比回歸前後的警察品格差異",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-3.10.10-AM.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-3.10.10-AM.png",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-3.10.10-AM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-26-at-3.10.10-AM.png",
     "shortDescription": "科目：認識當今香港的文化和承傳<br/>科目總分：A<br/><br/>引言：警察是個負責執行法律、維持治安的一個政府部門。在港英時期,曾經發生一場歷時半年的「六七暴動」,當時的皇家香港警察就是負責前線鎮壓暴亂的紀律部隊。而事件最終以大團圓結局完結,社會大眾對警察亦留有正面形象。<br/><br/>唯當香港經歷過 2019 年的「反對逃犯條例修訂」運動後,警民關係每況愈下。香港民意研究所每半年舉行一次民意調查,以電話訪問市民對香港警務處的滿意程度。結果得分由 2018 年 11 月份的 62 .5 分,跌至 2019 年 8 月份的 39.4 分。<br/><br/>當年的「六七暴動」,與現時的「反修例」運動其實有不少雷同之處,但民意卻與港英時期的皇家香港警察大相逕庭。除左警察本身對示威者的態度外,由於警察乃是隸屬政府,接受政府命令執行職務,因此政府對待示威的態度也需一同考慮。<br/><br/>我會從「警察及政府應對示威的指令」和「警員執法時的態度」兩方面,為兩次事件作出比較,找出導致民意不同的因素;以及找出現時香港警察能否繼承皇家香港警察的優良品格。",
     "longDescription": "科目：認識當今香港的文化和承傳<br/>科目總分：A<br/><br/>引言：警察是個負責執行法律、維持治安的一個政府部門。在港英時期,曾經發生一場歷時半年的「六七暴動」,當時的皇家香港警察就是負責前線鎮壓暴亂的紀律部隊。而事件最終以大團圓結局完結,社會大眾對警察亦留有正面形象。<br/><br/>唯當香港經歷過 2019 年的「反對逃犯條例修訂」運動後,警民關係每況愈下。香港民意研究所每半年舉行一次民意調查,以電話訪問市民對香港警務處的滿意程度。結果得分由 2018 年 11 月份的 62 .5 分,跌至 2019 年 8 月份的 39.4 分。<br/><br/>當年的「六七暴動」,與現時的「反修例」運動其實有不少雷同之處,但民意卻與港英時期的皇家香港警察大相逕庭。除左警察本身對示威者的態度外,由於警察乃是隸屬政府,接受政府命令執行職務,因此政府對待示威的態度也需一同考慮。<br/><br/>我會從「警察及政府應對示威的指令」和「警員執法時的態度」兩方面,為兩次事件作出比較,找出導致民意不同的因素;以及找出現時香港警察能否繼承皇家香港警察的優良品格。",
     "keywords": ["Academic"],
