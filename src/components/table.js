@@ -27,7 +27,7 @@ export default function MainTable() {
 
                 <Table
                     striped highlightOnHover
-                    style={{ width: "70%", marginLeft: "auto", marginRight: "auto" }}
+                    style={{  marginLeft: "auto", marginRight: "auto" }}
                     className="table-desktop"
                     fontSize="lg"
                     verticalSpacing="md">
