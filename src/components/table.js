@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Table, Stack, Modal, Button, Select } from '@mantine/core';
+import { Table, Stack, Modal, Button, Select, Badge } from '@mantine/core';
 
 import TableItemDesktop from './tableItem-desktop'
 import TableItemMobile from './tableItem-mobile'
@@ -61,7 +61,8 @@ export default function MainTable() {
                     size="lg"
                     style={{ marginLeft: "auto", marginRight: "auto" }} >
                     Show Summary of What I have learned
-                </Button>
+                </Button> <br />
+
 
                 <Select
                     data={fullKeywords}
@@ -71,7 +72,7 @@ export default function MainTable() {
                     placeholder="Keywords"
                 />
 
-                <h3>Showing {filteredData.length} Projects</h3>
+                <h2>Showing <Badge size="xl">{filteredData.length}</Badge> Projects</h2>
 
                 <Table
                     striped highlightOnHover

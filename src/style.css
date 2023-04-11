@@ -32,6 +32,12 @@ img {
     display: none;
 }
 
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 @media only screen and (min-width: 1024px) {
     .urlButton {
         margin: 0px;

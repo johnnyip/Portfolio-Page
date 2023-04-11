@@ -93,8 +93,8 @@
     "shortDescription": "Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
     "longDescription": "Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
     "keywords": [
-      "blockchain",
-      "cryptocurreny"
+      "Blockchain",
+      "Cryptocurreny"
     ],
     "links": [
       [
@@ -113,6 +113,7 @@
     "keywords": [
       "React.js",
       "Java",
+      "Blockchain",
       "Hyperledger Fabric",
       "Spring Boot",
       "Spring Security",
@@ -242,7 +243,7 @@
     "keywords": [
       "Swift",
       "iOS",
-      "Open api"
+      "Open API"
     ],
     "links": [
       [
