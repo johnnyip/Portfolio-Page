@@ -18,24 +18,6 @@ export default function MainTable() {
     const [filters, setFilters] = useState([])
     const [filteredData, setFilteredData] = useState(TableData)
 
-    let keywordColor = {
-        "React.js": ["#008DE2", "#E5F5FD"],
-
-        "Java": ["#ED6D1F", "#E5F5FD"],
-        "Spring Security": ["#ED6D1F", "#E5F5FD"],
-        "Spring Boot": ["#ED6D1F", "#E5F5FD"],
-        "JWT": ["#ED6D1F", "#E5F5FD"],
-        "Hibernate": ["#ED6D1F", "#E5F5FD"],
-        "Thymeleaf (HTML+js)": ["#ED6D1F", "#E5F5FD"],
-
-        "Jenkins": ["#000000", "#E5F5FD"],
-        "Hyperledger Fabric": ["#8BDEDB", "#742124"],
-        "Docker": ["#0098E8", "#FFFFFF"],
-
-        "Swift": ["#F77C47", "#FFFFFF"],
-        "iOS": ["#F77C47", "#FFFFFF"],
-    }
-
     useEffect(() => {
         let fullKeywords_tmp = [];
 
@@ -109,13 +91,6 @@ export default function MainTable() {
 
                     <tbody>
                         {[...filteredData].map((item, i) => {
-                            let haveKeyword = false
-                            for (let keyword of item.keywords) {
-                                if (filters.includes(keyword)) {
-                                    haveKeyword = true
-                                }
-                            }
-
                             return <TableItemDesktop
                                 data={item}
                                 setShowDetail={setShowDetailDesktop}
