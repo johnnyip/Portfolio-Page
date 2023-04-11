@@ -32,7 +32,7 @@ img {
     display: none;
 }
 
-body {
+.App {
     padding-left: 15%;
     padding-right: 15%;
     font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
