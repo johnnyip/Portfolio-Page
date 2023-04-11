@@ -26,7 +26,7 @@ export default function TableItem(props) {
 
 
     // console.log(data)
-    console.log(data.links)
+    // console.log(data.links)
 
     if (data !== undefined) {
 
@@ -44,6 +44,7 @@ export default function TableItem(props) {
                     <Group spacing="xs" >
                         {[...data.keywords].map((item, i) => {
                             return <Badge
+                                key={i}
                                 color="gray"
                                 style={{
                                     color: (color[item] !== undefined) ? color[item][0] : "",
@@ -52,7 +53,7 @@ export default function TableItem(props) {
                                 size="lg">{item}</Badge>
                         })}
                     </Group>
-                    <br/>
+                    <br />
                     <Group grow>
                         <Button
                             onClick={() => {

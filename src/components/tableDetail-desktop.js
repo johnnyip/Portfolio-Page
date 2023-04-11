@@ -13,8 +13,8 @@ export default function TableDetail(props) {
                     grow>
                     {
                         [...data.links].map((item, i) => {
-                            console.log("item")
-                            console.log(item)
+                            // console.log("item")
+                            // console.log(item)
                             return (
                                 <Button
                                     onClick={() => { window.open(item[1]) }}

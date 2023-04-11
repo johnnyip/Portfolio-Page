@@ -1,17 +1,74 @@
-import { useState } from 'react';
-import { Table, Stack, Modal, Button } from '@mantine/core';
+import { useState, useEffect } from 'react';
+import { Table, Stack, Modal, Button, Select } from '@mantine/core';
 
 import TableItemDesktop from './tableItem-desktop'
 import TableItemMobile from './tableItem-mobile'
-import TableData from '../data/data.json'
 import TableDetailMobile from './tableDetail-mobile'
 import TableDetailDesktop from './tableDetail-desktop'
+
+import TableData from '../data/data.json'
 
 export default function MainTable() {
     const [showDetailDesktop, setShowDetailDesktop] = useState(false)
     const [showDetailMobile, setShowDetailMobile] = useState(false)
     const [showLearnedDetails, setShowLearnedDetails] = useState(false)
     const [detailItem, setDetailItem] = useState({})
+
+    const [fullKeywords, setFullKeywords] = useState([])
+    const [filters, setFilters] = useState([])
+    const [filteredData, setFilteredData] = useState(TableData)
+
+    let keywordColor = {
+        "React.js": ["#008DE2", "#E5F5FD"],
+
+        "Java": ["#ED6D1F", "#E5F5FD"],
+        "Spring Security": ["#ED6D1F", "#E5F5FD"],
+        "Spring Boot": ["#ED6D1F", "#E5F5FD"],
+        "JWT": ["#ED6D1F", "#E5F5FD"],
+        "Hibernate": ["#ED6D1F", "#E5F5FD"],
+        "Thymeleaf (HTML+js)": ["#ED6D1F", "#E5F5FD"],
+
+        "Jenkins": ["#000000", "#E5F5FD"],
+        "Hyperledger Fabric": ["#8BDEDB", "#742124"],
+        "Docker": ["#0098E8", "#FFFFFF"],
+
+        "Swift": ["#F77C47", "#FFFFFF"],
+        "iOS": ["#F77C47", "#FFFFFF"],
+    }
+
+    useEffect(() => {
+        let fullKeywords_tmp = [];
+
+        for (let item of TableData) {
+            for (let key of item.keywords) {
+                if (!fullKeywords_tmp.includes(key)) {
+                    fullKeywords_tmp.push(key)
+                }
+            }
+        }
+
+        let fullKeywords_tmp2 = [];
+        for (let item of fullKeywords_tmp) {
+            fullKeywords_tmp2.push({ label: item, value: item })
+        }
+
+        setFullKeywords(fullKeywords_tmp2)
+
+        if (filters.length === 0) {
+            setFilteredData(TableData)
+        } else {
+            let filteredData_tmp = [];
+            for (let item of TableData) {
+                for (let key of item.keywords) {
+                    if (filters.includes(key)) {
+                        filteredData_tmp.push(item)
+                        break;
+                    }
+                }
+            }
+            setFilteredData(filteredData_tmp)
+        }
+    }, [filters])
 
     return (
         <div style={{ width: "100%", marginLeft: "auto", marginRight: "auto" }}>
@@ -24,15 +81,24 @@ export default function MainTable() {
                     Show Summary of What I have learned
                 </Button>
 
+                <Select
+                    data={fullKeywords}
+                    value={filters}
+                    onChange={setFilters}
+                    label="Filter Related Projects by Keywords"
+                    placeholder="Keywords"
+                />
+
+                <h3>Showing {filteredData.length} Projects</h3>
 
                 <Table
                     striped highlightOnHover
-                    style={{  marginLeft: "auto", marginRight: "auto" }}
+                    style={{ marginLeft: "auto", marginRight: "auto" }}
                     className="table-desktop"
                     fontSize="lg"
                     verticalSpacing="md">
                     <thead>
-                        <tr><td colspan="4">                <hr /></td></tr>
+                        <tr><td colSpan="4">                <hr /></td></tr>
                         <tr>
                             <th style={{ width: "20%" }}>Name</th>
                             <th style={{ width: "50%" }}>Description</th>
@@ -42,7 +108,14 @@ export default function MainTable() {
                     </thead>
 
                     <tbody>
-                        {[...TableData].map((item, i) => {
+                        {[...filteredData].map((item, i) => {
+                            let haveKeyword = false
+                            for (let keyword of item.keywords) {
+                                if (filters.includes(keyword)) {
+                                    haveKeyword = true
+                                }
+                            }
+
                             return <TableItemDesktop
                                 data={item}
                                 setShowDetail={setShowDetailDesktop}
@@ -61,7 +134,7 @@ export default function MainTable() {
                     verticalSpacing="md">
 
                     <tbody>
-                        {[...TableData].map((item, i) => {
+                        {[...filteredData].map((item, i) => {
                             return <TableItemMobile
                                 data={item}
                                 setShowDetail={setShowDetailMobile}
