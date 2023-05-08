@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Table, Stack, Modal, Button, Select, Badge } from '@mantine/core';
+import { Table, Stack, Modal, Button, Select, Badge, Group } from '@mantine/core';
 
 import TableItemDesktop from './tableItem-desktop'
 import TableItemMobile from './tableItem-mobile'
@@ -56,13 +56,20 @@ export default function MainTable() {
         <div style={{ width: "100%", marginLeft: "auto", marginRight: "auto" }}>
 
             <Stack align="center" >
-                <Button
-                    onClick={() => setShowLearnedDetails(true)}
-                    size="lg"
-                    style={{ marginLeft: "auto", marginRight: "auto" }} >
-                    Show Summary of What I have learned
-                </Button> <br />
-
+                <Group>
+                    <Button
+                        onClick={() => setShowLearnedDetails(true)}
+                        // size="lg"
+                        style={{ marginLeft: "auto", marginRight: "auto" }} >
+                        Show Summary of What I have learned
+                    </Button> <br />
+                    <a href="https://github.com/johnnyip" target="_blank">
+                        <Button
+                            color="grape">
+                            Github Profile (johnnyip)
+                        </Button>
+                    </a>
+                </Group>
 
                 <Select
                     data={fullKeywords}
