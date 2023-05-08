@@ -26,7 +26,7 @@ export default function MainTable() {
                 if (!fullKeywords_tmp.includes(key)) {
                     fullKeywords_tmp.push(key)
                 }
-            }
+            } 
         }
 
         let fullKeywords_tmp2 = [];
