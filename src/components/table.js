@@ -26,7 +26,7 @@ export default function MainTable() {
                 if (!fullKeywords_tmp.includes(key)) {
                     fullKeywords_tmp.push(key)
                 }
-            } 
+            }
         }
 
         let fullKeywords_tmp2 = [];
@@ -63,7 +63,7 @@ export default function MainTable() {
                         style={{ marginLeft: "auto", marginRight: "auto" }} >
                         Show Summary of What I have learned
                     </Button> <br />
-                    <a href="https://github.com/johnnyip" target="_blank">
+                    <a href="https://github.com/johnnyip" rel="noreferrer" target="_blank">
                         <Button
                             color="grape">
                             Github Profile (johnnyip)
