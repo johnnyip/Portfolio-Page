@@ -1,5 +1,69 @@
 [
   {
+    "name": "Search Engine Course Project",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-2.04.06-PM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-2.04.06-PM.png",
+    "shortDescription": "[HKUST] CSIT5930 Search Engines and Applications<br/>Given a starting page: <ul> <li>Crawl all the child pages contents</li> <li>Build indexes in database</li><li>Search query using the indexes</li> <li>Create a frontend for accepting user query</li></ul>",
+    "longDescription": "[HKUST] CSIT5930 Search Engines and Applications<br/>Given a starting page: <ul> <li>Crawl all the child pages contents</li> <li>Build indexes in database</li><li>Search query using the indexes</li> <li>Create a frontend for accepting user query</li></ul>",
+    "keywords": [
+      "Java",
+      "Python",
+      "Spring Boot",
+      "Flask",
+      "Docker",
+      "NodeJS",
+      "Jenkins",
+      "Redis",
+      "MongoDB",
+      "React.js"
+    ],
+    "links": [
+      [
+        "Project Frontend",
+        "https://search.johnnyip.com/"
+      ],
+      [
+        "Report",
+        "https://drive.google.com/file/d/1oM3HbAVy2fVSZ04gV7BcqzMVeHD2PA71/view?usp=share_link"
+      ],
+      [
+        "GitHub Repository",
+        "https://github.com/johnnyip/Search-Engine-Project"
+      ]
+    ],
+    "themeColor": "#cff6ff"
+  },
+  {
+    "name": "Spatial Database Course Project",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-1.46.34-PM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-1.46.34-PM.png",
+    "shortDescription": "[HKUST] CSIT6000P Spatial and Multimedia Databases <br/>This project is to: <ul> <li>Store spatial data with PostGIS(based on PostgreSQL)</li> <li>Visualize the spatial data with QGIS</li> <li>Further extend the usage of them to frontend area (QGIS server, React.JS).</li><li>Make it deployable on Docker environment</li> </ul>",
+    "longDescription": "[HKUST] CSIT6000P Spatial and Multimedia Databases <br/>This project is to: <ul> <li>Store spatial data with PostGIS(based on PostgreSQL)</li> <li>Visualize the spatial data with QGIS</li> <li>Further extend the usage of them to frontend area (QGIS server, React.JS).</li><li>Make it deployable on Docker environment</li> </ul>",
+    "keywords": [
+      "PostGIS",
+      "QGIS",
+      "Docker",
+      "NodeJS",
+      "Jenkins",
+      "React.js"
+    ],
+    "links": [
+      [
+        "QGIS Server",
+        "https://qgis.johnnyip.com"
+      ],
+      [
+        "Project Frontend",
+        "https://spatial.johnnyip.com"
+      ],
+      [
+        "GitHub Repository",
+        "https://github.com/johnnyip/Spatial-Project"
+      ]
+    ],
+    "themeColor": "#cff6ff"
+  },
+  {
     "name": "Google Form Prefill Link Generator",
     "thumbnail": "http://johnnyip.com/wp-content/uploads/2023/01/Screenshot-2023-01-08-at-2.16.35-PM.png",
     "image": "http://johnnyip.com/wp-content/uploads/2023/01/Screenshot-2023-01-08-at-2.16.35-PM.png",
