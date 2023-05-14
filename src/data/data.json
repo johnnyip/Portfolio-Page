@@ -1,5 +1,36 @@
 [
   {
+    "name": "Cloud Computing Course Project",
+    "thumbnail": "https://github.com/johnnyip/Cloud-Project/raw/main/image/architecture.png",
+    "image": "https://github.com/johnnyip/Cloud-Project/raw/main/image/architecture.png",
+    "shortDescription": "[HKUST] CSIT6000O Advanced Cloud Computing<br/><br/>Reimplement the AWS data streaming serverless application architecture, with some open-source alternatives, including Apache Kafka, OpenFaaS and MongoDB.<br/><br/>Make it deployable to Docker and Kubernetes cluster.",
+    "longDescription": "[HKUST] CSIT6000O Advanced Cloud Computing<br/><br/>Reimplement the AWS data streaming serverless application architecture, with some open-source alternatives, including Apache Kafka, OpenFaaS and MongoDB.",
+    "keywords": [
+      "Docker",
+      "Kubernetes",
+      "Kafka",
+      "Kafka Connect",
+      "OpenFaaS",
+      "MongoDB",
+      "Node.JS"
+    ],
+    "links": [
+      [
+        "GitHub Repository",
+        "https://github.com/johnnyip/Cloud-Project"
+      ],
+      [
+        "Present PPT",
+        "https://drive.google.com/file/d/1wOzgAd5G1pDwasquUJO5jsm7iwTIWuD2/view?usp=share_link"
+      ],
+      [
+        "Report",
+        "https://drive.google.com/file/d/15u7TBdO0iaRoWug_oRlUfN2ASExixvWd/view?usp=share_link"
+      ]
+    ],
+    "themeColor": "#cff6ff"
+  },
+  {
     "name": "Search Engine Course Project",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-2.04.06-PM.png",
     "image": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-2.04.06-PM.png",
