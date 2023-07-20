@@ -306,8 +306,8 @@
     "name": "DateGrasp",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/07/Untitled-design-2.png",
     "image": "",
-    "shortDescription": "[iOS App]<br/>Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
-    "longDescription": "[iOS App]<br/>Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
+    "shortDescription": "[iOS App][Discontinued]<br/>Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
+    "longDescription": "[iOS App][Discontinued]<br/>Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
     "keywords": [
       "Swift",
       "iOS",
@@ -333,8 +333,8 @@
     "name": "TransportGrasp",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/08/Untitled-design-2.png",
     "image": "",
-    "shortDescription": "[Discontinued]<br/>HK public transport ETA. Can be used with iOS Shortcut app<br/>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
-    "longDescription": "[Discontinued]<br/>HK public transport ETA. Can be used with iOS Shortcut app<br/>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
+    "shortDescription": "[iOS App][Discontinued]<br/>HK public transport ETA. Can be used with iOS Shortcut app<br/>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
+    "longDescription": "[iOS App][Discontinued]<br/>HK public transport ETA. Can be used with iOS Shortcut app<br/>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
     "keywords": [
       "Swift",
       "iOS",
