@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Table, Stack, Modal, Button, Select, Badge, Grid } from '@mantine/core';
+import { Stack, Button, Select, Badge, Grid } from '@mantine/core';
 
 import CardDetail from './cardDetail'
 import TableData from '../../data/data.json'
