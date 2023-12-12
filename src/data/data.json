@@ -1,10 +1,11 @@
 [
   {
     "name": "Cloud Computing Course Project",
+    "date": "03/2023",
     "thumbnail": "https://github.com/johnnyip/Cloud-Project/raw/main/image/architecture.png",
     "image": "https://github.com/johnnyip/Cloud-Project/raw/main/image/architecture.png",
-    "shortDescription": "<b>[03/2023]</b><br/>[HKUST] CSIT6000O Advanced Cloud Computing<br/><br/>Reimplement the AWS data streaming serverless application architecture, with some open-source alternatives, including Apache Kafka, OpenFaaS and MongoDB.<br/><br/>Make it deployable to Docker and Kubernetes cluster.",
-    "longDescription": "<b>[03/2023]</b><br/>[HKUST] CSIT6000O Advanced Cloud Computing<br/><br/>Reimplement the AWS data streaming serverless application architecture, with some open-source alternatives, including Apache Kafka, OpenFaaS and MongoDB.",
+    "shortDescription": "[HKUST] CSIT6000O Advanced Cloud Computing<br/><br/>Reimplement the AWS data streaming serverless application architecture, with some open-source alternatives, including Apache Kafka, OpenFaaS and MongoDB.<br/><br/>Make it deployable to Docker and Kubernetes cluster.",
+    "longDescription": "[HKUST] CSIT6000O Advanced Cloud Computing<br/><br/>Reimplement the AWS data streaming serverless application architecture, with some open-source alternatives, including Apache Kafka, OpenFaaS and MongoDB.",
     "keywords": [
       "Docker",
       "Kubernetes",
@@ -16,7 +17,7 @@
     ],
     "links": [
       [
-        "GitHub Repository",
+        "Code",
         "https://github.com/johnnyip/Cloud-Project"
       ],
       [
@@ -32,10 +33,11 @@
   },
   {
     "name": "Search Engine Course Project",
+    "date": "03/2023",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-2.04.06-PM.png",
     "image": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-2.04.06-PM.png",
-    "shortDescription": "<b>[03/2023]</b><br/>[HKUST] CSIT5930 Search Engines and Applications<br/>Given a starting page: <ul> <li>Crawl all the child pages contents</li> <li>Build indexes in database</li><li>Search query using the indexes</li> <li>Create a frontend for accepting user query</li></ul>",
-    "longDescription": "<b>[03/2023]</b><br/>[HKUST] CSIT5930 Search Engines and Applications<br/>Given a starting page: <ul> <li>Crawl all the child pages contents</li> <li>Build indexes in database</li><li>Search query using the indexes</li> <li>Create a frontend for accepting user query</li></ul>",
+    "shortDescription": "[HKUST] CSIT5930 Search Engines and Applications<br/>Given a starting page: <ul> <li>Crawl all the child pages contents</li> <li>Build indexes in database</li><li>Search query using the indexes</li> <li>Create a frontend for accepting user query</li></ul>",
+    "longDescription": "[HKUST] CSIT5930 Search Engines and Applications<br/>Given a starting page: <ul> <li>Crawl all the child pages contents</li> <li>Build indexes in database</li><li>Search query using the indexes</li> <li>Create a frontend for accepting user query</li></ul>",
     "keywords": [
       "Java",
       "Python",
@@ -50,7 +52,7 @@
     ],
     "links": [
       [
-        "Project Frontend",
+        "Website",
         "https://search.johnnyip.com/"
       ],
       [
@@ -58,7 +60,7 @@
         "https://drive.google.com/file/d/1oM3HbAVy2fVSZ04gV7BcqzMVeHD2PA71/view?usp=share_link"
       ],
       [
-        "GitHub Repository",
+        "Code",
         "https://github.com/johnnyip/Search-Engine-Project"
       ]
     ],
@@ -66,10 +68,11 @@
   },
   {
     "name": "Spatial Database Course Project",
+    "date": "03/2023",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-1.46.34-PM.png",
     "image": "https://johnnyip.com/wp-content/uploads/2023/05/Screenshot-2023-05-12-at-1.46.34-PM.png",
-    "shortDescription": "<b>[03/2023]</b><br/>[HKUST] CSIT6000P Spatial and Multimedia Databases <br/>This project is to: <ul> <li>Store spatial data with PostGIS(based on PostgreSQL)</li> <li>Visualize the spatial data with QGIS</li> <li>Further extend the usage of them to frontend area (QGIS server, React.JS).</li><li>Make it deployable on Docker environment</li> </ul>",
-    "longDescription": "<b>[03/2023]</b><br/>[HKUST] CSIT6000P Spatial and Multimedia Databases <br/>This project is to: <ul> <li>Store spatial data with PostGIS(based on PostgreSQL)</li> <li>Visualize the spatial data with QGIS</li> <li>Further extend the usage of them to frontend area (QGIS server, React.JS).</li><li>Make it deployable on Docker environment</li> </ul>",
+    "shortDescription": "[HKUST] CSIT6000P Spatial and Multimedia Databases <br/>This project is to: <ul> <li>Store spatial data with PostGIS(based on PostgreSQL)</li> <li>Visualize the spatial data with QGIS</li> <li>Further extend the usage of them to frontend area (QGIS server, React.JS).</li><li>Make it deployable on Docker environment</li> </ul>",
+    "longDescription": "[HKUST] CSIT6000P Spatial and Multimedia Databases <br/>This project is to: <ul> <li>Store spatial data with PostGIS(based on PostgreSQL)</li> <li>Visualize the spatial data with QGIS</li> <li>Further extend the usage of them to frontend area (QGIS server, React.JS).</li><li>Make it deployable on Docker environment</li> </ul>",
     "keywords": [
       "PostGIS",
       "QGIS",
@@ -84,11 +87,11 @@
         "https://qgis.johnnyip.com"
       ],
       [
-        "Project Frontend",
+        "Website",
         "https://spatial.johnnyip.com"
       ],
       [
-        "GitHub Repository",
+        "Code",
         "https://github.com/johnnyip/Spatial-Project"
       ]
     ],
@@ -96,10 +99,11 @@
   },
   {
     "name": "Google Form Prefill Link Generator",
-    "thumbnail": "http://johnnyip.com/wp-content/uploads/2023/01/Screenshot-2023-01-08-at-2.16.35-PM.png",
-    "image": "http://johnnyip.com/wp-content/uploads/2023/01/Screenshot-2023-01-08-at-2.16.35-PM.png",
-    "shortDescription": "<b>[01/2023]</b><br/>[Open Source Project]<br/>Normally, prefilled url of google form can only be generated by author. <br/>With this tool, you can paste any google form link, and generate a prefilled url.",
-    "longDescription": "<b>[01/2023]</b><br/>Normally, prefilled url of google form can only be generated by author. <br/>With this tool, you can paste any google form link, and generate a prefilled url.",
+    "date": "01/2023",
+    "thumbnail": "https://johnnyip.com/wp-content/uploads/2023/01/Screenshot-2023-01-08-at-2.16.35-PM.png",
+    "image": "https://johnnyip.com/wp-content/uploads/2023/01/Screenshot-2023-01-08-at-2.16.35-PM.png",
+    "shortDescription": "[Open Source Project]<br/>Normally, prefilled url of google form can only be generated by author. <br/>With this tool, you can paste any google form link, and generate a prefilled url.",
+    "longDescription": "Normally, prefilled url of google form can only be generated by author. <br/>With this tool, you can paste any google form link, and generate a prefilled url.",
     "keywords": [
       "React.js"
     ],
@@ -109,7 +113,7 @@
         "https://johnnyip.com/google-form-prefilled/"
       ],
       [
-        "Source Code",
+        "Code",
         "https://github.com/johnnyip/Google-Form-Prefill-Link-Generator"
       ]
     ],
@@ -117,10 +121,11 @@
   },
   {
     "name": "AR System",
+    "date": "09/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
     "image": "https://johnnyip.com/wp-content/uploads/2022/08/screencapture-ar-johnnyip-2022-08-08-02_30_29.png",
-    "shortDescription": "<b>[09/2022]</b><br/>[In Progress]<br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
-    "longDescription": "<b>[09/2022]</b><br/>[In Progress]<br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
+    "shortDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
+    "longDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>For replacing the internal Excel Visual Basic programs<br/><br/><ul><li>For internal use within the school office</li><li>Import data sources from csv files</li><li>Generate up to <b>10 different types</b> of reports</li><li>in PDF(.pdf) or Excel(.xlsx) format, or zipped (.zip)</li><li>Huge performamnce improvement comparing to Excel Visual Basic</li></ul><ul><b>Time of generating the same set of reports</b><li>Before: Up to a day</li><li>After: Within 10 seconds</li></ul>",
     "keywords": [
       "React.js",
       "Java",
@@ -134,7 +139,7 @@
     ],
     "links": [
       [
-        "System Website",
+        "Website",
         "https://ar.johnnyip.com"
       ],
       [
@@ -142,7 +147,7 @@
         "https://johnnyip.com/ar"
       ],
       [
-        "Source Code",
+        "Code",
         "https://github.com/uowchk-internship/AR-System"
       ]
     ],
@@ -150,10 +155,11 @@
   },
   {
     "name": "ORCAS Platform",
+    "date": "08/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
     "image": "https://johnnyip.com/wp-content/uploads/2022/08/screencapture-orcas-uowchk-edu-hk-2022-08-08-02_03_10.png",
-    "shortDescription": "<b>[08/2022]</b><br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/>Alternative URL <a href='https://orcas.johnnyip.com' target='_blank'>https://orcas.johnnyip.com</a><br/><br/><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
-    "longDescription": "<b>[08/2022]</b><br/>Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/>Alternative URL <a href='https://orcas.johnnyip.com' target='_blank'>https://orcas.johnnyip.com</a><br/><br/>The <b>design</b> and <b>frontend (HTML, CSS)</b>: Done by summer interns (I am the instructor)<br/><br/>Other parts include <b>frontend Js (React.js), backend Spring Boot (Hibernate, Spring Security, JWT)</b> are done by me.<h2>Main functionality</h2><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
+    "shortDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/>Alternative URL <a href='https://orcas.johnnyip.com' target='_blank'>https://orcas.johnnyip.com</a><br/><br/><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
+    "longDescription": "Developed for the <b>University of Wollongong Hong Kong Campus</b><br/>Hosted on <a href='https://orcas.uowchk.edu.hk' target='_blank'>https://orcas.uowchk.edu.hk</a><br/>Alternative URL <a href='https://orcas.johnnyip.com' target='_blank'>https://orcas.johnnyip.com</a><br/><br/>The <b>design</b> and <b>frontend (HTML, CSS)</b>: Done by summer interns (I am the instructor)<br/><br/>Other parts include <b>frontend Js (React.js), backend Spring Boot (Hibernate, Spring Security, JWT)</b> are done by me.<h2>Main functionality</h2><ul><li>Students upload resources with description and URL</li><li>Can be a article, a thesis or a video</li><br/><li>School staff edit and approve the information of resources.</li></li><li>The resources will be displayed on the website publicly</li><li>Other students can search resources by keywords and filters</li></ul>",
     "keywords": [
       "React.js",
       "Java",
@@ -167,15 +173,15 @@
     ],
     "links": [
       [
-        "System Website",
+        "Website",
         "https://orcas.uowchk.edu.hk"
       ],
       [
-        "Alternative Website",
+        "Website 2",
         "https://orcas.johnnyip.com"
       ],
       [
-        "Source Code",
+        "Code",
         "https://github.com/uowchk-internship/ORCAS"
       ]
     ],
@@ -183,10 +189,11 @@
   },
   {
     "name": "Introduction to Cryptocurrency (5:04)",
+    "date": "08/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-10-at-3.15.31-AM.png",
     "image": "https://johnnyip.com/wp-content/uploads/2022/09/Screenshot-2022-09-10-at-3.15.31-AM.png",
-    "shortDescription": "<b>[08/2022]</b><br/>Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
-    "longDescription": "<b>[08/2022]</b><br/>Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
+    "shortDescription": "Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
+    "longDescription": "Participated in a <b>Knowledge Enhancement Series</b> by <b>UOWCHK Student Learning Support Scheme</b>. <br/><br/>I am the script writer and the presenter of the video.<br/>In the video, I have introduced some basic knowledge about cryptocurreny (Bitcoin), including the blockchain, usage of Bitcoin, and their Pros and Cons.",
     "keywords": [
       "Blockchain",
       "Cryptocurreny"
@@ -201,10 +208,11 @@
   },
   {
     "name": "Supply Chain Finance Operation Platform",
+    "date": "07/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
     "image": "https://johnnyip.com/wp-content/uploads/2022/06/screencapture-fyp-front-johnnyip-order-1-1-2022-06-20-00_25_39.png",
-    "shortDescription": "<b>[07/2022]</b><br/>[FYP] A system for stakeholders in supplychain finance<br/><br/><ul><li>Delivery Order Management</li><li>Delivery checkpoints - Map View</li><li>Documents Storage</li><li>Synchronize Data To Private Blockchain</li></ul>",
-    "longDescription": "<b>[07/2022]</b><br/>[FYP]<br>A system for stakeholders involved in the Supply Chain Finance (Supplier, distributor, driver)<br>They can manage and closely monitor the delivery status, and synchronize all the data to a private blockchain network.<br/><br/> <table width='100%' border='1' class='tech-stack-table'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th width='40%' valign='top'>Frontend</th><td width='60%'>React.js<br />Hosted using <b>Docker</b><br /><br />Libraries used:<ul><li>Redux-toolkit (State Container)</li><li>Mantine (UI Components)</li><li>Next.js (Server-side Rendering)</li><li>Tabler (Icons)</li><li>Axios (HTTP requests)</li></ul></td></tr><tr><th class='tech-stack-table-th valign='top'>Backend (Operation Centre)</th><td>Spring Boot<br />Connected to MySQL<br />Hosted using <b>Tomcat</b><br /><br /><ul><li>Spring Security (JWT)</li><li>Spring Data JPA</li><li>Hosted with Tomcat</li></ul></td></tr><tr><th class='tech-stack-table-th' valign='top'>Backend (Blockchain Centre)</th><td>Hyperledger Fabric<br /><ul><li>A Single-node Linux</li><li>Running Docker Containers</li></ul><br />Perform <b>Read</b> and <b>Insert</b> operations with an API endpoint<br /><ul><li>Hyperledger Fabric Gateway SDK</li><li>Spring Boot Application</li><li>Hosted with Tomcat</li></ul><br /></td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
+    "shortDescription": "[FYP] A system for stakeholders in supplychain finance<br/><br/><ul><li>Delivery Order Management</li><li>Delivery checkpoints - Map View</li><li>Documents Storage</li><li>Synchronize Data To Private Blockchain</li></ul>",
+    "longDescription": "[FYP]<br>A system for stakeholders involved in the Supply Chain Finance (Supplier, distributor, driver)<br>They can manage and closely monitor the delivery status, and synchronize all the data to a private blockchain network.<br/><br/> <table width='100%' border='1' class='tech-stack-table'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th width='40%' valign='top'>Frontend</th><td width='60%'>React.js<br />Hosted using <b>Docker</b><br /><br />Libraries used:<ul><li>Redux-toolkit (State Container)</li><li>Mantine (UI Components)</li><li>Next.js (Server-side Rendering)</li><li>Tabler (Icons)</li><li>Axios (HTTP requests)</li></ul></td></tr><tr><th class='tech-stack-table-th valign='top'>Backend (Operation Centre)</th><td>Spring Boot<br />Connected to MySQL<br />Hosted using <b>Tomcat</b><br /><br /><ul><li>Spring Security (JWT)</li><li>Spring Data JPA</li><li>Hosted with Tomcat</li></ul></td></tr><tr><th class='tech-stack-table-th' valign='top'>Backend (Blockchain Centre)</th><td>Hyperledger Fabric<br /><ul><li>A Single-node Linux</li><li>Running Docker Containers</li></ul><br />Perform <b>Read</b> and <b>Insert</b> operations with an API endpoint<br /><ul><li>Hyperledger Fabric Gateway SDK</li><li>Spring Boot Application</li><li>Hosted with Tomcat</li></ul><br /></td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
     "keywords": [
       "React.js",
       "Java",
@@ -221,15 +229,15 @@
     ],
     "links": [
       [
-        "Project Introduction",
+        "Introduction",
         "https://fyp.johnnyip.com"
       ],
       [
-        "System Website",
+        "Website",
         "https://fyp-front.johnnyip.com"
       ],
       [
-        "Source Code",
+        "Code",
         "https://github.com/uowchk-group2"
       ]
     ],
@@ -237,10 +245,11 @@
   },
   {
     "name": "Tour Booking System",
+    "date": "09/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
     "image": "https://johnnyip.com/wp-content/uploads/2022/06/screencapture-tomcat-johnnyip-tour-system-tourist-tourDetail-10-2022-06-20-00_59_20-e1655658165499.png",
-    "shortDescription": "<b>[06/2022]</b><br/>[School Project]<br/><br/><ul><li>Host Create Tours</li><li>Tourists Join Tours</li><li>Admin Approve the Application of Host Users</li><li>Handle Complaints and Chat Between Users</li></ul>",
-    "longDescription": "<b>[06/2022]</b><br/>[School Project]<br>A system for people to apply and become a local tour <b>host</b> and host tours.<br>Also allow foreign tourists join those tours.<br><br><br><table border='1' class='tech-stack-table' width='100%'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th' width='40%' valign='top'>Frontend + Backend</th><td width='60%'><ul><li>Spring Boot</li><li>Spring Security</li><li>Thymeleaf (HTML+js)</li><li>Spring Data JPA</li></ul></td></tr><tr><th class='tech-stack-table-th'>Web Server</th><td>Tomcat</td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
+    "shortDescription": "[School Project]<br/><ul><li>Host Create Tours</li><li>Tourists Join Tours</li><li>Admin Approve the Application of Host Users</li><li>Handle Complaints and Chat Between Users</li></ul>",
+    "longDescription": "[School Project]<br>A system for people to apply and become a local tour <b>host</b> and host tours.<br>Also allow foreign tourists join those tours.<br><br><br><table border='1' class='tech-stack-table' width='100%'><tr><th colspan='2' style='text-align:center'><h2>Tech Stack</h2></th></tr><tr><th class='tech-stack-table-th' width='40%' valign='top'>Frontend + Backend</th><td width='60%'><ul><li>Spring Boot</li><li>Spring Security</li><li>Thymeleaf (HTML+js)</li><li>Spring Data JPA</li></ul></td></tr><tr><th class='tech-stack-table-th'>Web Server</th><td>Tomcat</td></tr><tr><th class='tech-stack-table-th'>Database</th><td>MySQL</td></tr><tr><th class='tech-stack-table-th'>File Storage</th><td>AWS S3 bucket (Pre-signed URL)</td></tr><tr><th class='tech-stack-table-th'>CI/CD</th><td>Jenkins</td></tr></table>",
     "keywords": [
       "Java",
       "Spring Boot",
@@ -258,7 +267,7 @@
         "https://tomcat.johnnyip.com/tour-system/"
       ],
       [
-        "Source Code",
+        "Code",
         "https://github.com/uowchk-group2/tour-system"
       ],
       [
@@ -270,10 +279,11 @@
   },
   {
     "name": "HKJC Health Declaration Form Generator",
+    "date": "01/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/12/Screenshot-2022-12-16-at-1.10.38-PM.png",
     "image": "https://johnnyip.com/wp-content/uploads/2022/12/Screenshot-2022-12-16-at-1.10.38-PM.png",
-    "shortDescription": "<b>[01/2022]</b><br/>Help my colleagues to reduce the time spent everyday on filling the google form, by automating the process of google form-filling.<br/>Positive feedback from colleagues after they used this tool.",
-    "longDescription": "<b>[01/2022]</b><br/>As all the employees of HKJC are required to fill a Google form everyday for health declarations, it is quite annoying and time consuming to do this repeatedly everyday.<br/>After using this generator, they have positive feedback on the usefulness of this tool.",
+    "shortDescription": "Help my colleagues to reduce the time spent everyday on filling the google form, by automating the process of google form-filling.<br/>Positive feedback from colleagues after they used this tool.",
+    "longDescription": "As all the employees of HKJC are required to fill a Google form everyday for health declarations, it is quite annoying and time consuming to do this repeatedly everyday.<br/>After using this generator, they have positive feedback on the usefulness of this tool.",
     "keywords": [
       "JavaScript"
     ],
@@ -287,6 +297,7 @@
   },
   {
     "name": "JetBrains Academy projects",
+    "date": "01/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2022/07/Screenshot-2022-07-26-at-12.55.55-AM.png",
     "image": "https://johnnyip.com/wp-content/uploads/2022/12/Screenshot-2022-12-16-at-1.10.38-PM.png",
     "shortDescription": "Projects from <b>JetBrains Academy</b> - Java Developer Track",
@@ -304,6 +315,7 @@
   },
   {
     "name": "DateGrasp",
+    "date": "07/2021 - 06/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/07/Untitled-design-2.png",
     "image": "",
     "shortDescription": "[iOS App][Discontinued]<br/>Date Countdown, Todo-List, Custom Notification, Collaboration<br>日期倒數、待辦事項、自訂通知、多人共享",
@@ -315,7 +327,7 @@
     ],
     "links": [
       [
-        "Download At AppStore",
+        "Download",
         "https://apps.apple.com/us/app/dategrasp/id1577501913"
       ],
       [
@@ -331,6 +343,7 @@
   },
   {
     "name": "TransportGrasp",
+    "date": "01/2022",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/08/Untitled-design-2.png",
     "image": "",
     "shortDescription": "[iOS App][Discontinued]<br/>HK public transport ETA. Can be used with iOS Shortcut app<br/>香港公共交通工具－實時到站時間。可整合於iOS Shortcut內使用。",
@@ -350,7 +363,7 @@
         "https://johnnyip.com/beta/"
       ],
       [
-        "Source Code",
+        "Code",
         "https://github.com/johnnyip/TransportGrasp"
       ]
     ],
@@ -358,6 +371,7 @@
   },
   {
     "name": "MuseumPlus",
+    "date": "09/2021",
     "thumbnail": "https://johnnyip.com/wp-content/uploads/2021/11/Museum.png",
     "image": "",
     "shortDescription": "Human Computer Interaction - Group Project Prototype",
@@ -368,15 +382,15 @@
     ],
     "links": [
       [
-        "Prototype(iOS)",
+        "Prototype",
         "https://johnnyip.com/beta/"
       ],
       [
-        "Project Report",
+        "Report",
         "https://drive.google.com/drive/folders/1JW-1SnFbfBglchkLHghffKdjbc8YKdSc?usp=sharing"
       ],
       [
-        "Source Code",
+        "Code",
         "https://github.com/johnnyip/HCI-Prototype_Museum-"
       ]
     ],

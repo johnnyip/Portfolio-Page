@@ -6,7 +6,7 @@ import TableItemMobile from './tableItem-mobile'
 import TableDetailMobile from './tableDetail-mobile'
 import TableDetailDesktop from './tableDetail-desktop'
 
-import TableData from '../data/data.json'
+import TableData from '../../data/data.json'
 
 export default function MainTable() {
     const [showDetailDesktop, setShowDetailDesktop] = useState(false)
