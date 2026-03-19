@@ -1,79 +1,148 @@
-import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
-import { IconExternalLink } from '@tabler/icons-react';
-import parse from 'html-react-parser'
+import { Badge, Button, Card, Group, Image, Stack, Text, Title } from '@mantine/core';
+import { IconArrowUpRight, IconCalendarEvent, IconCodeDots } from '@tabler/icons-react';
 
-export default function CardDetail(props) {
-  let data = props.data
+export default function CardDetail({ data, categories = [], purpose = '' }) {
+  if (!data) return null;
 
-  let color = {
-    "React.js": ["#008DE2", "#E5F5FD"],
+  return (
+    <Card className="project-card" radius="xl" padding="lg">
+      <Card.Section>
+        <div className="project-image-wrap">
+          <Image src={data.thumbnail} alt={data.name} className="project-image" />
+          <div className="project-image-overlay" />
+          <Badge className="project-date-badge" radius="xl" size="md" leftSection={<IconCalendarEvent size={13} />}>
+            {data.date}
+          </Badge>
+        </div>
+      </Card.Section>
 
-    "Java": ["#ED6D1F", "#E5F5FD"],
-    "Spring Security": ["#ED6D1F", "#E5F5FD"],
-    "Spring Boot": ["#ED6D1F", "#E5F5FD"],
-    "JWT": ["#ED6D1F", "#E5F5FD"],
-    "Hibernate": ["#ED6D1F", "#E5F5FD"],
-    "Thymeleaf (HTML+js)": ["#ED6D1F", "#E5F5FD"],
+      <Stack gap="md" className="project-card-body">
+        <div>
+          <Group gap="xs" mb={10}>
+            {categories.map((item) => (
+              <Badge key={item} variant="light" radius="xl" color={categoryColor(item)} size="sm">
+                {item}
+              </Badge>
+            ))}
+          </Group>
 
-    "Jenkins": ["#000000", "#E5F5FD"],
-    "Hyperledger Fabric": ["#8BDEDB", "#742124"],
-    "Docker": ["#0098E8", "#F5F5F5"],
+          <Title order={3} className="project-title">
+            {data.name}
+          </Title>
 
-    "Swift": ["#F77C47", "#F5F5F5"],
-    "iOS": ["#F77C47", "#F5F5F5"],
-  }
+          {purpose ? <Text className="project-purpose">{purpose}</Text> : null}
 
-  if (data !== undefined) {
+          <Text className="project-description">{truncateText(stripHtml(data.shortDescription), 170)}</Text>
+        </div>
 
-    return (
-      <Card shadow="sm" padding="lg" radius="md" withBorder>
-        <Card.Section>
-          <Image
-            src={data.thumbnail} width={"100%"}
-          />
-        </Card.Section>
+        <div>
+          <Text className="project-stack-label">Tech stack</Text>
+          <Group gap="xs">
+            {(data.keywords || []).slice(0, 8).map((item, i) => (
+              <Badge key={`${item}-${i}`} variant="light" radius="xl" color={keywordColor(item)} size="sm">
+                {item}
+              </Badge>
+            ))}
+          </Group>
+        </div>
 
-        <Group justify="space-between" mt="md" mb="xs">
-          <Text fw={500}>{data.name}</Text>
-          <Badge color="blue" size="lg">{data.date}</Badge>
-        </Group>
-        <hr style={{ width: '100%' }} />
+        <div className="project-divider" />
 
-        <Text size="md">
-          {parse(data.shortDescription)}
-        </Text>
+        <Stack gap="xs">
+          <Group gap={8}>
+            <IconCodeDots size={18} className="project-section-icon" />
+            <Text className="project-links-label">Links</Text>
+          </Group>
 
-        <hr style={{ width: '100%' }} />
-        <Group spacing="xs" >
-          {[...data.keywords].map((item, i) => {
-            return <Badge
-              key={i}
-              color="gray"
-              style={{
-                color: (color[item] !== undefined) ? color[item][0] : "",
-                backgroundColor: (color[item] !== undefined) ? color[item][1] : "",
-              }}
-              size="lg"
-              radius="s">{item}</Badge>
-          })}
-        </Group>
-        <br /><hr style={{ width: '100%' }} />
+          <Stack gap="sm">
+            {(data.links || []).map((item, i) => (
+              <Button
+                key={`${item[0]}-${i}`}
+                component="a"
+                href={item[1]}
+                target="_blank"
+                rel="noreferrer"
+                variant="light"
+                radius="lg"
+                justify="space-between"
+                rightSection={<IconArrowUpRight size={16} />}
+                className="project-link-button"
+              >
+                {item[0]}
+              </Button>
+            ))}
+          </Stack>
+        </Stack>
+      </Stack>
+    </Card>
+  );
+}
 
-        <Group
-          grow>
-          {
-            [...data.links].map((item, i) => {
-              return (
-                <Button fullWidth
-                  rightSection={<IconExternalLink size={20} />}
-                  onClick={() => { window.open(item[1]) }}>
-                  {(item[0])}
-                </Button>
-              )
-            })
-          }
-        </Group><br />
-      </Card>
-    );
-  }
+function stripHtml(text = '') {
+  return text.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function truncateText(text = '', maxLength = 170) {
+  if (text.length <= maxLength) return text;
+  return `${text.slice(0, maxLength).trim()}…`;
+}
+
+function categoryColor(category) {
+  const palette = {
+    Backend: 'blue',
+    Infra: 'cyan',
+    Observability: 'teal',
+    'AI Tooling': 'indigo',
+    Utility: 'slate',
+  };
+  return palette[category] || 'gray';
+}
+
+function keywordColor(keyword) {
+  const palette = {
+    // Backend / framework
+    Java: 'blue',
+    'Spring Boot': 'blue',
+    'Spring Security': 'blue',
+    Hibernate: 'blue',
+    JWT: 'blue',
+    Flask: 'blue',
+    'Open API': 'blue',
+
+    // Infra / platform
+    Docker: 'blue',
+    Kubernetes: 'cyan',
+    OpenFaaS: 'cyan',
+    Jenkins: 'slate',
+    Kafka: 'cyan',
+    'Kafka Connect': 'cyan',
+
+    // Runtime / app
+    'Node.js': 'indigo',
+    'Node.JS': 'indigo',
+    NodeJS: 'indigo',
+    JavaScript: 'indigo',
+    'React.js': 'indigo',
+    Swift: 'grape',
+    iOS: 'grape',
+    'Thymeleaf (HTML+js)': 'indigo',
+
+    // Data / storage / geo
+    MongoDB: 'green',
+    MySQL: 'green',
+    Redis: 'green',
+    PostGIS: 'teal',
+    QGIS: 'teal',
+    Firebase: 'teal',
+
+    // AI / blockchain / specialized
+    Blockchain: 'violet',
+    'Hyperledger Fabric': 'violet',
+    Cryptocurreny: 'violet',
+    Python: 'orange',
+    AWS: 'yellow',
+    'AWS S3': 'yellow',
+  };
+
+  return palette[keyword] || 'gray';
 }

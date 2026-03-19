@@ -1,23 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import '@mantine/core/styles.css';
 import { MantineProvider, createTheme } from '@mantine/core';
-
+import '@mantine/core/styles.css';
+import App from './App';
 
 const theme = createTheme({
-  /** Put your mantine theme override here */
+  fontFamily: 'Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif',
+  primaryColor: 'violet',
+  defaultRadius: 'md',
+  headings: {
+    fontFamily: 'Inter, ui-sans-serif, system-ui, sans-serif',
+    fontWeight: '800',
+  },
+  colors: {
+    dark: [
+      '#C9D6F2',
+      '#A7B7D9',
+      '#8497BF',
+      '#6379A4',
+      '#495E84',
+      '#334460',
+      '#223048',
+      '#172233',
+      '#0E1726',
+      '#09111C',
+    ],
+  },
 });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MantineProvider theme={theme} >
+    <MantineProvider theme={theme} defaultColorScheme="dark">
       <App />
     </MantineProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
