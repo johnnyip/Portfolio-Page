@@ -233,7 +233,7 @@ export default function PortfolioPage() {
                 <Text className="panel-eyebrow">Grafana dashboard</Text>
                 <Title order={4} className="panel-title">Dashboard preview</Title>
                 <div className="grafana-sample-frame">
-                  <img src="/grafana-sample.png" alt="Grafana dashboard sample" className="grafana-sample-image" />
+                  <img src="https://johnnyip.com/wp-content/uploads/2026/04/grafana.png" alt="Grafana dashboard sample" className="grafana-sample-image" />
                 </div>
               </Stack>
             </Card>
