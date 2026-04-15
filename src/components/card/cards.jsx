@@ -13,7 +13,7 @@ import {
 } from '@mantine/core';
 import { IconArrowRight, IconBrandGithub, IconCpu, IconNetwork, IconServer } from '@tabler/icons-react';
 
-import CardDetail from './cardDetail';
+import CardDetail from './cardDetail.jsx';
 import projectData from '../../data/data.json';
 
 const projectMeta = {
@@ -233,7 +233,7 @@ export default function PortfolioPage() {
                 <Text className="panel-eyebrow">Grafana dashboard</Text>
                 <Title order={4} className="panel-title">Dashboard preview</Title>
                 <div className="grafana-sample-frame">
-                  <img src="https://johnnyip.com/wp-content/uploads/2026/04/grafana.png" alt="Grafana dashboard sample" className="grafana-sample-image" />
+                  <img src="/assets/grafana-sample.png" alt="Grafana dashboard sample" className="grafana-sample-image" />
                 </div>
               </Stack>
             </Card>

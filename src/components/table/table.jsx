@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Table, Stack, Modal, Button, Select, Badge, Group } from '@mantine/core';
 
-import TableItemDesktop from './tableItem-desktop'
-import TableItemMobile from './tableItem-mobile'
-import TableDetailMobile from './tableDetail-mobile'
-import TableDetailDesktop from './tableDetail-desktop'
+import TableItemDesktop from './tableItem-desktop.jsx'
+import TableItemMobile from './tableItem-mobile.jsx'
+import TableDetailMobile from './tableDetail-mobile.jsx'
+import TableDetailDesktop from './tableDetail-desktop.jsx'
 
 import TableData from '../../data/data.json'
 

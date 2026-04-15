@@ -7,27 +7,19 @@
 		"@mantine/core": "^7.3.1",
 		"@mantine/hooks": "^7.3.1",
 		"@tabler/icons-react": "^2.44.0",
-		"@testing-library/jest-dom": "^5.16.4",
-		"@testing-library/react": "^13.3.0",
-		"@testing-library/user-event": "^13.5.0",
-		"browserslist": "^4.21.5",
 		"html-react-parser": "^3.0.8",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-scripts": "5.0.1",
-		"web-vitals": "^2.1.4"
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^5.0.4",
+		"vite": "^7.1.10"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
-	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
+		"dev": "vite",
+		"start": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
 	},
 	"browserslist": {
 		"production": [

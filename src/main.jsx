@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { MantineProvider, createTheme } from '@mantine/core';
 import '@mantine/core/styles.css';
-import App from './App';
+import App from './App.jsx';
 
 const theme = createTheme({
   fontFamily: 'Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif',
@@ -28,8 +28,7 @@ const theme = createTheme({
   },
 });
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <MantineProvider theme={theme} defaultColorScheme="dark">
       <App />
